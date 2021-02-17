@@ -1,18 +1,33 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js + TypeScript App"/>
+    <TopBar msg="Please consider making a donation to support this website"/>
+    <date/>
+    <stats/>
+    <selected/>
+    <chart/>
   </div>
 </template>
 
 <script lang="ts">
 import Vue from 'vue';
-import HelloWorld from '@/components/HelloWorld.vue'; // @ is an alias to /src
+import TopBar from '@/components/TopBar.vue';
 
 export default Vue.extend({
   name: 'Home',
   components: {
-    HelloWorld,
+    TopBar,
   },
 });
 </script>
+
+<style lang="scss">
+@import "@/scss/main.scss";
+
+#app {
+  font-family: $font-family;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+}
+</style>

@@ -1,0 +1,59 @@
+/* IMPORTS */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+/* COLORS */
+$background-color: #F6F8FA;
+$top-bar-color: #1F8DFB;
+$component-background-color: #FBFBFC;
+$border-color: #D0DAE4;
+$button-blue-color: #10A3F4;
+$button-red-color: #F43E15;
+$button-grey-color: #F7F8FB;
+$button-border-color: #D0DAE4;
+/* FONTS */
+$font-family: "Roboto", sans-serif;
+$font-weigh-light: 300;
+$font-weigh-regular: 400;
+$font-weigh-medium: 500;
+$font-size-medium: 18px;
+$font-size-small: 16px;
+$line-height-medium: 20px;
+$line-height-small: 16px;
+/* FONT COLORS */
+$top-bar-font-color: #F4F6FA;
+$button-font-color: #F9FBFD;
+$standard-font-color: #60768C;
+$table-header-font-color: #889BAE;
+$table-element-font-color: #495960;
+$footer-font-color: #56676F;
+/* SHAPES */
+$border-shape: solid 2px $border-color;
+$border-radius-big: 12px;
+$border-radius-medium: 4px;
+$border-radius-small: 2px;
+/* SPACING */
+$standard-spacing: 40px;
+/* RESET */
+html{
+	scroll-behavior: smooth;
+	background-color: $background-color;
+}
+
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-font-smoothing: antialiased;
+}
+
+img{
+	display: block;
+}
+
+a{
+	outline:none;
+	text-decoration: none;
+}
