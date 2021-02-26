@@ -1,0 +1,22 @@
+@use 'variables' as var;
+/* RESET */
+html{
+	scroll-behavior: smooth;
+	background-color: var.$background-color;
+}
+
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family: var.$font-family;
+}
+
+img{
+	display: block;
+}
+
+a, button{
+	outline:none;
+	text-decoration: none;
+}
